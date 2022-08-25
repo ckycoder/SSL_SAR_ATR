@@ -16,8 +16,9 @@ Synthetic aperture radar automatic target recognition (SAR ATR) has been sufferi
         pages={1-5},
         doi={10.1109/LGRS.2022.3197892}}
 
-#Run 
+# Run 
         run train_XXX.py will give the recognition accuracy on the test set in every epoch
+        run test_ResNet.py will give the t-SNE based visualization of feature maps.
 ## Different components
         train_ResNet.py -- Basic_Network
         train_ResNet_WSA.py -- WSAs
