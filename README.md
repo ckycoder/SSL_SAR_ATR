@@ -18,10 +18,16 @@ Synthetic aperture radar automatic target recognition (SAR ATR) has been sufferi
         
         
 # dataset
-
+        
 # Run 
         run train_XXX.py will give the recognition accuracy on the test set in every epoch （pyhton train_XXX.py）
         run test_ResNet.py will give the t-SNE based visualization of feature maps. （pyhton test_ResNet.py）
+        
+# parameters
+        --training_dataset represents the sampling strategy：uniform or non_uniform
+        --range represents the selective of labeled samples:
+        1.uniform 5,10,20   --> TABLE I of the paper
+        2.uniform 0,1,2,3,...,11 ---- 0-30, 30-60, 60-90,....,330-360,  --> TABLE II of the paper
 ## Different components
         train_ResNet.py -- Basic_Network
         train_ResNet_WSA.py -- WSAs
