@@ -15,3 +15,7 @@ Synthetic aperture radar automatic target recognition (SAR ATR) has been sufferi
         number={},
         pages={1-5},
         doi={10.1109/LGRS.2022.3197892}}
+
+#Run 
+
+train
