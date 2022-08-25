@@ -17,5 +17,10 @@ Synthetic aperture radar automatic target recognition (SAR ATR) has been sufferi
         doi={10.1109/LGRS.2022.3197892}}
 
 #Run 
-
-train
+run train_XXX.py will give the recognition accuracy for every epoch
+## Different components
+train_ResNet.py -- Basic_Network
+train_ResNet_WSA.py -- WSAs
+train_ResNet_WSA_mmd.py -- WSAs+DA
+train_ResNet_WSA_topk.py -- WSA+Top-k
+train_ResNet_WSA_topk_mmd.py -- WSA+DA+Top-k
